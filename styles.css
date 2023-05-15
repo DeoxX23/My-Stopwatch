@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+#container {
+    background: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    margin-top: 180px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+#seconds, #tens {
+    font-size: 2em;
+}
+button {
+    margin: 30px 20px;
+    border-radius: 6px;
+    background: mediumturquoise;
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
